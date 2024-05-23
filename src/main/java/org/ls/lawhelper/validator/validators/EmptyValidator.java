@@ -1,8 +1,8 @@
-package org.ls.tweetpoints.validator.validators;
+package org.ls.lawhelper.validator.validators;
 
-import org.ls.tweetpoints.config.AppException;
-import org.ls.tweetpoints.data.enums.Errors;
-import org.ls.tweetpoints.data.enums.HttpErrors;
+import org.ls.lawhelper.config.AppException;
+import org.ls.lawhelper.data.enums.Errors;
+import org.ls.lawhelper.data.enums.HttpErrors;
 
 public class EmptyValidator {
     public static <T> void isValid(T field, String fieldName) {

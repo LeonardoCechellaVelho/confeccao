@@ -1,7 +1,7 @@
-package org.ls.tweetpoints.validator;
+package org.ls.lawhelper.validator;
 
-import org.ls.tweetpoints.data.models.TopicModel;
-import org.ls.tweetpoints.validator.validators.EmptyValidator;
+import org.ls.lawhelper.data.models.TopicModel;
+import org.ls.lawhelper.validator.validators.EmptyValidator;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import lombok.AllArgsConstructor;

@@ -1,6 +1,6 @@
-package org.ls.tweetpoints.data.entities;
+package org.ls.lawhelper.data.entities;
 
-import org.ls.tweetpoints.data.models.TopicModel;
+import org.ls.lawhelper.data.models.TopicModel;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

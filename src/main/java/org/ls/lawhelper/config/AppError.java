@@ -1,4 +1,4 @@
-package org.ls.tweetpoints.config;
+package org.ls.lawhelper.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

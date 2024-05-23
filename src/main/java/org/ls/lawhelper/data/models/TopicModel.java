@@ -1,4 +1,4 @@
-package org.ls.tweetpoints.data.models;
+package org.ls.lawhelper.data.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

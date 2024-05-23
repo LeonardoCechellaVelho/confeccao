@@ -1,6 +1,6 @@
-package org.ls.tweetpoints.operations.topic;
+package org.ls.lawhelper.operations.topic;
 
-import org.ls.tweetpoints.data.entities.Topic;
+import org.ls.lawhelper.data.entities.Topic;
 
 import lombok.Builder;
 import lombok.Getter;

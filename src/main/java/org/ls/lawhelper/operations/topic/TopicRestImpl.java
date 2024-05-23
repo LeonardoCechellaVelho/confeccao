@@ -1,8 +1,8 @@
-package org.ls.tweetpoints.operations.topic;
+package org.ls.lawhelper.operations.topic;
 
-import org.ls.tweetpoints.data.entities.Topic;
-import org.ls.tweetpoints.data.models.TopicModel;
-import org.ls.tweetpoints.services.TopicService;
+import org.ls.lawhelper.data.entities.Topic;
+import org.ls.lawhelper.data.models.TopicModel;
+import org.ls.lawhelper.services.TopicService;
 
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.Path;

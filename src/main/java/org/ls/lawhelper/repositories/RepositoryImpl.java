@@ -1,15 +1,15 @@
-package org.ls.tweetpoints.repositories;
+package org.ls.lawhelper.repositories;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ls.tweetpoints.config.AppException;
-import org.ls.tweetpoints.config.SurrealConfig;
-import org.ls.tweetpoints.data.entities.Topic;
-import org.ls.tweetpoints.data.enums.Errors;
-import org.ls.tweetpoints.data.enums.HttpErrors;
-import org.ls.tweetpoints.data.models.TopicModel;
+import org.ls.lawhelper.config.AppException;
+import org.ls.lawhelper.config.SurrealConfig;
+import org.ls.lawhelper.data.entities.Topic;
+import org.ls.lawhelper.data.enums.Errors;
+import org.ls.lawhelper.data.enums.HttpErrors;
+import org.ls.lawhelper.data.models.TopicModel;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package org.ls.tweetpoints.config;
+package org.ls.lawhelper.config;
 
 import com.surrealdb.connection.SurrealWebSocketConnection;
 import com.surrealdb.driver.SyncSurrealDriver;

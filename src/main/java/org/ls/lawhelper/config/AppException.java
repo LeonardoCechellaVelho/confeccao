@@ -1,6 +1,6 @@
-package org.ls.tweetpoints.config;
+package org.ls.lawhelper.config;
 
-import org.ls.tweetpoints.data.enums.Errors;
+import org.ls.lawhelper.data.enums.Errors;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

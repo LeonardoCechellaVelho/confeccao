@@ -1,4 +1,4 @@
-package org.ls.tweetpoints.data.enums;
+package org.ls.lawhelper.data.enums;
 
 import lombok.Getter;
 

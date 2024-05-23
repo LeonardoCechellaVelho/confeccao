@@ -1,9 +1,8 @@
-package org.ls.tweetpoints.operations.topic;
+package org.ls.lawhelper.operations.topic;
 
 import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponses;
-import org.eclipse.microprofile.openapi.annotations.security.SecurityRequirement;
-import org.ls.tweetpoints.data.models.TopicModel;
+import org.ls.lawhelper.data.models.TopicModel;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 import org.eclipse.microprofile.openapi.annotations.media.Content;
 import org.eclipse.microprofile.openapi.annotations.media.Schema;

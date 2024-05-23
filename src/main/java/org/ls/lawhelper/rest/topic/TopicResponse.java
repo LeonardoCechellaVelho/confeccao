@@ -1,4 +1,4 @@
-package org.ls.lawhelper.operations.topic;
+package org.ls.lawhelper.rest.topic;
 
 import org.ls.lawhelper.data.entities.Topic;
 

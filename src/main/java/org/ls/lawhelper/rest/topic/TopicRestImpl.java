@@ -1,4 +1,4 @@
-package org.ls.lawhelper.operations.topic;
+package org.ls.lawhelper.rest.topic;
 
 import org.ls.lawhelper.data.entities.Topic;
 import org.ls.lawhelper.data.models.TopicModel;
@@ -12,19 +12,19 @@ import lombok.AllArgsConstructor;
 @Path("/topic")
 public class TopicRestImpl implements TopicRest {
     
-    TopicService topicService;
+    TopicService service;
 
     @Override
     @Transactional
     public TopicResponse addTopic(TopicModel request) {
-        Topic topic = topicService.addTopic(request);
+        Topic topic = service.addTopic(request);
         return TopicResponse.builder().topic(topic).build();
     }
 
     @Override
     @Transactional
     public TopicResponse getTopic(String name) {
-        Topic topic = topicService.getTopic(new TopicModel(name));
+        Topic topic = service.getTopic(new TopicModel(name));
         return TopicResponse.builder().topic(topic).build();
     }
 }

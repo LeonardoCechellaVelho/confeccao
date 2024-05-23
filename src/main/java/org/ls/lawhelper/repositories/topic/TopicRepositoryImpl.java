@@ -1,4 +1,4 @@
-package org.ls.lawhelper.repositories;
+package org.ls.lawhelper.repositories.topic;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,7 +16,7 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 @ApplicationScoped
-public class RepositoryImpl implements Repository {
+public class TopicRepositoryImpl implements TopicRepository {
 
     private SurrealConfig driver;
 

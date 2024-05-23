@@ -2,7 +2,7 @@ package org.ls.lawhelper.services;
 
 import org.ls.lawhelper.data.entities.Topic;
 import org.ls.lawhelper.data.models.TopicModel;
-import org.ls.lawhelper.repositories.Repository;
+import org.ls.lawhelper.repositories.topic.TopicRepository;
 import org.ls.lawhelper.validator.ValidatorService;
 
 import jakarta.enterprise.context.ApplicationScoped;
@@ -12,7 +12,7 @@ import lombok.AllArgsConstructor;
 @ApplicationScoped
 public class TopicServiceImpl implements TopicService {
 
-    private final Repository repository;
+    private final TopicRepository repository;
     private ValidatorService validator;
 
     @Override

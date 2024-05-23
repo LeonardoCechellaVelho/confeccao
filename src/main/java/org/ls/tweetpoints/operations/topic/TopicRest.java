@@ -23,7 +23,6 @@ public interface TopicRest {
     @Operation(summary = "Add Topic", description = "Add Topic")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    @SecurityRequirement(name = "Keycloak")
     @APIResponses(value = {
         @APIResponse(responseCode = "200", description = "Topic added!", 
                      content = @Content(mediaType = MediaType.APPLICATION_JSON, 
@@ -44,7 +43,6 @@ public interface TopicRest {
     @Path("/get")
     @Operation(summary = "Get Topic", description = "Get Topic")
     @Produces(MediaType.APPLICATION_JSON)
-    @SecurityRequirement(name = "Keycloak")
     @APIResponses(value = {
         @APIResponse(responseCode = "200", description = "Topic found!", 
                      content = @Content(mediaType = MediaType.APPLICATION_JSON, 
@@ -59,5 +57,5 @@ public interface TopicRest {
                      content = @Content(mediaType = MediaType.APPLICATION_JSON, 
                      schema = @Schema(implementation = String.class)))
     })
-    TopicResponse getTopic(@HeaderParam("email") String email);
+    TopicResponse getTopic(@HeaderParam("name") String name);
 }
